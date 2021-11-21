@@ -23,7 +23,7 @@ public class EnemyHealth : MonoBehaviour
     void ProcessHit()
     {
         currentHitPoints--;
-        if (currentHitPoints <=0)
+        if (currentHitPoints <= 0)
         {
             Destroy(gameObject);
         }
