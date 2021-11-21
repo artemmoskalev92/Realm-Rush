@@ -21,11 +21,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7493098611617752084, guid: e87140ca233a4a7479e6b4aed3d5a281, type: 3}
       propertyPath: m_text
-      value: 1,1
+      value: 0,1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7493098611617752084, guid: e87140ca233a4a7479e6b4aed3d5a281, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7493098611617752084, guid: e87140ca233a4a7479e6b4aed3d5a281, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7493098611617752084, guid: e87140ca233a4a7479e6b4aed3d5a281, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7493098611617752084, guid: e87140ca233a4a7479e6b4aed3d5a281, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4286611584
       objectReference: {fileID: 0}
     - target: {fileID: 7850736929519136530, guid: e87140ca233a4a7479e6b4aed3d5a281, type: 3}
       propertyPath: m_Name
-      value: Tile_Road Straight 90
+      value: (0, 1)
       objectReference: {fileID: 0}
     - target: {fileID: 7850736929519136557, guid: e87140ca233a4a7479e6b4aed3d5a281, type: 3}
       propertyPath: m_RootOrder
@@ -41,7 +57,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7850736929519136557, guid: e87140ca233a4a7479e6b4aed3d5a281, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7850736929519136557, guid: e87140ca233a4a7479e6b4aed3d5a281, type: 3}
       propertyPath: m_LocalRotation.w
@@ -49,15 +65,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7850736929519136557, guid: e87140ca233a4a7479e6b4aed3d5a281, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7850736929519136557, guid: e87140ca233a4a7479e6b4aed3d5a281, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7850736929519136557, guid: e87140ca233a4a7479e6b4aed3d5a281, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7850736929519136557, guid: e87140ca233a4a7479e6b4aed3d5a281, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -70,6 +86,18 @@ PrefabInstance:
     - target: {fileID: 7850736929519136557, guid: e87140ca233a4a7479e6b4aed3d5a281, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8510884796552515384, guid: e87140ca233a4a7479e6b4aed3d5a281, type: 3}
+      propertyPath: blockedColor.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8510884796552515384, guid: e87140ca233a4a7479e6b4aed3d5a281, type: 3}
+      propertyPath: blockedColor.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8510884796552515384, guid: e87140ca233a4a7479e6b4aed3d5a281, type: 3}
+      propertyPath: blockedColor.r
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e87140ca233a4a7479e6b4aed3d5a281, type: 3}
