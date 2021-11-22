@@ -1,15 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using TMPro;
 
 public class Bank : MonoBehaviour
 {
     [SerializeField] int startingBalance = 150;
 
     [SerializeField] int currentBalance;
-    public int CurrentBalance{get {return currentBalance;} }
+    public int CurrentBalance { get { return currentBalance; } }
 
     [SerializeField] TextMeshProUGUI displayBalance;
 
@@ -28,7 +26,7 @@ public class Bank : MonoBehaviour
         currentBalance -= Mathf.Abs(amount);
         UpdateDisplay();
 
-        if (currentBalance < 0 )
+        if (currentBalance < 0)
         {
             ReloadScene();
         }

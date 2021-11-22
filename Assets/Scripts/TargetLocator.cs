@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class TargetLocator : MonoBehaviour
@@ -10,7 +7,7 @@ public class TargetLocator : MonoBehaviour
     [SerializeField] float range = 15f;
     Transform target;
 
-   
+
 
     void Update()
     {
